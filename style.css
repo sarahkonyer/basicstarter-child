@@ -1,0 +1,112 @@
+/*
+Theme Name: Basic Starter Child Theme (EMD Web 3)
+Theme URI: http://www.sarahkonyer.com/wordpress/
+Description: Child theme for the PSD assignment
+Author: Sarah Konyer
+Author URI: http://www.sarahkonyer.com
+Template: basicstarter
+Version: 0.1
+*/
+
+@import url("../basicstarter/style.css");
+
+body{
+	background-color: #cdc6ce;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+p{
+	line-height: 160%;
+}
+
+#content{
+	float:right;
+}
+
+#wrap{
+	border: 1px solid #000;
+	box-shadow: 0 4px 1px #7d787d;
+}
+
+#branding{
+	background:url(img/logo.png)no-repeat scroll 20px 40px transparent;
+	border-bottom: 10px solid #48244c;
+	height: 105px;
+    width: 900px;
+    margin: 0 30px;
+}
+
+#logo a{
+	width:215px;
+	margin: 20px 0 0 20px;
+}
+
+#main{
+	box-shadow:0px 6px 5px -5px #333333 inset;
+	background-color: #f6f4f6;
+}
+
+#sidebar{
+	float:none;
+	background-color:#f6f4f6;
+	width: 280px;
+}
+
+#sidebar h4 {
+	background-color:#99619f;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: 100;
+	color:#fff;
+	padding-left: 10px;
+	margin-bottom: 8px;
+}
+
+#sidebar li{
+	border-bottom: 1px solid #cccccc;
+	height: 16px;
+}
+
+#top-nav{
+	position:absolute;
+	top:58px;
+	left:314px;
+	width:600px;
+	background-color:#fff;
+}
+
+#top-nav a {
+    color:#48244c;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#top-nav ul li a:hover, 
+#top-nav ul li.current_page_item a,
+#top-nav ul li.current_page_parent a,
+#top-nav ul li.current_page_ancestor a,
+#top-nav ul li.current-menu-ancestor a, 
+#top-nav ul li.current-menu-item a,
+#top-nav ul li.current-menu-parent a {
+	background: #fff;
+	color: #48244c;
+}
+
+h1{
+	color:#48244c;
+	font-size:30px;
+}
+
+footer{
+	border-top: none;
+	background-color: #f6f4f6;
+	text-align: right;
+}
+
+footer p{
+	color: #99619f;
+	padding: 10px 30px 10px 10px;
+}
