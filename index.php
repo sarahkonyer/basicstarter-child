@@ -16,6 +16,10 @@ get_header(); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+
+			<p class="post-dates"><?php ?></p><?php the_date('F, j, Y', '<h3>', '</h3>', true);?>
+
+			<?php the_post_thumbnail('medium'); ?>
 			
 			<?php the_content( __( 'Read more', 'blm_basic' ) ); ?>
 
@@ -28,7 +32,7 @@ get_header(); ?>
 				}
 				?>
 				
-			<?php get_template_part( 'inc/meta' ); ?>
+			<?php get_template_part( 'inc/meta', 'new' ); ?>
 
 		</article>
 		

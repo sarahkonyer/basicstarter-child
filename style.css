@@ -46,6 +46,7 @@ p{
 	background-color: #f6f4f6;
 }
 
+/* Sidebar begins */
 #sidebar{
 	float:none;
 	background-color:#f6f4f6;
@@ -65,7 +66,20 @@ p{
 	border-bottom: 1px solid #cccccc;
 	height: 16px;
 }
+/* Sidebar ends */
 
+.sidebar-quote{
+	color: #99619f;
+	float: none;
+	width: 260px;
+	padding-top: 20px;
+	padding-left: 15px;
+	margin: 40px 20px 0 30px;
+	background: url(img/quote.png)no-repeat;
+
+}
+
+/* Navigation begins */
 #top-nav{
 	position:absolute;
 	top:58px;
@@ -94,11 +108,37 @@ p{
 	background: #fff;
 	color: #48244c;
 }
+/* Navigation ends */
 
-h1{
+h1, h2, h2 a{
 	color:#48244c;
 	font-size:30px;
 }
+
+/* Blog pages begin */
+.entrymeta p, a{
+	color:#99619f;
+	text-decoration: none;
+}
+
+.entrymeta{
+	border-top: solid .5px #99619f;
+}
+
+h3{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 100;
+	color: #000;
+	margin: -25px 0 0;
+}
+
+img.wp-post-image{
+	float: left;
+	margin: 0 15px 15px 0;
+}
+/* Blog pages end */
 
 footer{
 	border-top: none;
